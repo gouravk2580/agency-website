@@ -50,24 +50,24 @@ export default function AboutPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
           </div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10 mb-6">
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-muted border border-white/10 mb-6">
                 <Users className="w-4 h-4 text-primary-light" />
                 About ZapZoom
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                 We're on a Mission to{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
                   Demystify
                 </span>{" "}
                 Digital Marketing
               </h1>
-              <p className="text-lg text-white/70 mb-8 max-w-lg">
+              <p className="text-lg text-muted mb-8 max-w-lg">
                 Founded in 2019, ZapZoom has grown from a two-person startup to a 25+ member team
                 serving 150+ businesses across India and Southeast Asia.
               </p>
@@ -181,13 +181,13 @@ export default function AboutPage() {
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="aspect-[4/5] bg-gradient-to-br from-dark to-primary/30 rounded-3xl overflow-hidden">
+                <div className="aspect-[4/5] bg-gradient-to-br from-primary/20 to-accent/10 rounded-3xl overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
                       <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-4">
-                        <Users className="w-12 h-12 text-white/60" />
+                        <Users className="w-12 h-12 text-muted" />
                       </div>
-                      <p className="text-white/60 text-sm">Founder & CEO</p>
+                      <p className="text-muted text-sm">Founder & CEO</p>
                     </div>
                   </div>
                 </div>
@@ -262,11 +262,11 @@ export default function AboutPage() {
                 description="A creative workspace designed for collaboration and innovation."
                 centered={false}
               />
-              <div className="bg-gradient-to-br from-dark to-primary/30 rounded-3xl aspect-video flex items-center justify-center">
+              <div className="bg-gradient-to-br from-primary/20 to-accent/10 rounded-3xl aspect-video flex items-center justify-center">
                 <div className="text-center">
-                  <Building2 className="w-16 h-16 text-white/40 mx-auto mb-4" />
-                  <p className="text-white/60 text-sm">Shakarpur, East Delhi, New Delhi</p>
-                  <p className="text-white/40 text-xs mt-1">Where creativity meets strategy</p>
+                  <Building2 className="w-16 h-16 text-muted mx-auto mb-4" />
+                  <p className="text-muted text-sm">Shakarpur, East Delhi, New Delhi</p>
+                  <p className="text-muted text-xs mt-1">Where creativity meets strategy</p>
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@ export default function AboutPage() {
         </section>
 
         {/* Numbers */}
-        <section className="section-padding bg-dark text-white">
+        <section className="section-padding bg-gray-50 text-text">
           <div className="container-custom">
             <SectionHeader
               badge="By The Numbers"
@@ -312,7 +312,7 @@ export default function AboutPage() {
               {stats.map((stat, i) => (
                 <div key={i} className="text-center">
                   <div className="text-4xl md:text-5xl font-stat font-bold text-primary mb-2">{stat.value}</div>
-                  <div className="text-white/60">{stat.label}</div>
+                  <div className="text-muted">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -320,12 +320,12 @@ export default function AboutPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Join Our Growing Family
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Ready to work with a team that's as invested in your success as you are?
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
@@ -337,7 +337,7 @@ export default function AboutPage() {
               </Link>
               <a
                 href="tel:+919667169645"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
               >
                 <Phone className="w-5 h-5" /> Call Us
               </a>

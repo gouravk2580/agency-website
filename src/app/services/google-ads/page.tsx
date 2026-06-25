@@ -94,24 +94,24 @@ export default function GoogleAdsPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" />
           </div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10 mb-6">
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-muted border border-white/10 mb-6">
                 <Search className="w-4 h-4 text-accent" />
                 Google Ads
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                 Put Your Business{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
                   Front & Center
                 </span>{" "}
                 on Google
               </h1>
-              <p className="text-lg text-white/70 mb-8 max-w-lg">
+              <p className="text-lg text-muted mb-8 max-w-lg">
                 Data-driven Google Ads campaigns that capture high-intent customers
                 ready to buy. From search to shopping, we cover it all.
               </p>
@@ -124,7 +124,7 @@ export default function GoogleAdsPage() {
                 </Link>
                 <a
                   href="tel:+919667169645"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
                 >
                   <Phone className="w-5 h-5" /> Call Us
                 </a>
@@ -206,12 +206,12 @@ export default function GoogleAdsPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Ready to Dominate Google?
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Get a free Google Ads audit and see how much revenue you're leaving on the table.
             </p>
             <Link

@@ -84,24 +84,24 @@ export default function SEOPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-accent/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-accent/5 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 right-20 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" />
           </div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10 mb-6">
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-muted border border-white/10 mb-6">
                 <TrendingUp className="w-4 h-4 text-accent" />
                 SEO Services
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                 Grow{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-primary-light">
                   Organically
                 </span>{" "}
                 & Dominate Search
               </h1>
-              <p className="text-lg text-white/70 mb-8 max-w-lg">
+              <p className="text-lg text-muted mb-8 max-w-lg">
                 Data-driven SEO strategies that drive sustainable organic traffic
                 and qualified leads. No shortcuts, just proven results.
               </p>
@@ -114,7 +114,7 @@ export default function SEOPage() {
                 </Link>
                 <a
                   href="tel:+919667169645"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
                 >
                   <Phone className="w-5 h-5" /> Call Us
                 </a>
@@ -149,12 +149,13 @@ export default function SEOPage() {
         </section>
 
         {/* Process */}
-        <section className="section-padding bg-dark text-white">
+        <section className="section-padding bg-gray-50 text-text">
           <div className="container-custom">
             <SectionHeader
               badge="Our Process"
               title="6-Step SEO Framework"
               description="A proven process that delivers consistent organic growth."
+              dark
             />
             <div className="mt-12 max-w-4xl mx-auto">
               {processSteps.map((step, i) => (
@@ -169,7 +170,7 @@ export default function SEOPage() {
                   </div>
                   <div className="pb-8">
                     <h3 className="text-lg font-heading font-semibold mb-1">{step.title}</h3>
-                    <p className="text-white/60 text-sm">{step.description}</p>
+                    <p className="text-muted text-sm">{step.description}</p>
                   </div>
                 </div>
               ))}
@@ -211,12 +212,12 @@ export default function SEOPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-accent to-primary text-white">
+        <section className="section-padding bg-gradient-to-br from-accent/10 to-primary/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Ready to Grow Organically?
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Get a free SEO audit and discover untapped organic growth opportunities.
             </p>
             <Link

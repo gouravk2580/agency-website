@@ -351,7 +351,7 @@ export default function HomePage() {
                   className="bg-white rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all duration-300"
                 >
                   <div className="h-48 bg-gradient-to-br from-primary to-dark flex items-center justify-center">
-                    <span className="text-white/80 text-sm font-medium">
+                    <span className="text-text/80 text-sm font-medium">
                       {study.industry}
                     </span>
                   </div>

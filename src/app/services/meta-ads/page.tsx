@@ -93,25 +93,25 @@ export default function MetaAdsPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero - 60/40 Layout */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 right-20 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-float" />
           </div>
           <div className="container-custom relative z-10">
             <div className="grid lg:grid-cols-5 gap-12 items-center">
               <div className="lg:col-span-3">
-                <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10 mb-6">
+                <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-muted border border-white/10 mb-6">
                   <Megaphone className="w-4 h-4 text-primary-light" />
                   Meta Ads
                 </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                   Scale Your Business with{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
                     High-Converting
                   </span>{" "}
                   Facebook & Instagram Ads
                 </h1>
-                <p className="text-lg text-white/70 mb-8 max-w-lg">
+                <p className="text-lg text-muted mb-8 max-w-lg">
                   Data-driven Meta Ads campaigns that help businesses generate quality leads
                   and increase sales through precise audience targeting and optimization.
                 </p>
@@ -124,7 +124,7 @@ export default function MetaAdsPage() {
                   </Link>
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
                   >
                     Get Free Ads Audit
                   </Link>
@@ -132,7 +132,7 @@ export default function MetaAdsPage() {
                 {/* Trust Badges */}
                 <div className="flex flex-wrap gap-6 mt-8">
                   {["ROI Focused", "Weekly Reports", "Dedicated Manager"].map((badge) => (
-                    <div key={badge} className="flex items-center gap-2 text-white/80 text-sm">
+                    <div key={badge} className="flex items-center gap-2 text-muted text-sm">
                       <CheckCircle className="w-4 h-4 text-accent" />
                       {badge}
                     </div>
@@ -143,7 +143,7 @@ export default function MetaAdsPage() {
               {/* Dashboard Mockup */}
               <div className="lg:col-span-2 hidden lg:block">
                 <div className="relative bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20">
-                  <div className="bg-dark/50 rounded-2xl p-4 mb-4">
+                  <div className="bg-gray-100 rounded-2xl p-4 mb-4">
                     <div className="flex items-center gap-2 mb-3">
                       <div className="w-3 h-3 rounded-full bg-red-400" />
                       <div className="w-3 h-3 rounded-full bg-yellow-400" />
@@ -158,8 +158,8 @@ export default function MetaAdsPage() {
                   <div className="grid grid-cols-2 gap-3">
                     {results.map((r, i) => (
                       <div key={i} className="bg-white/10 rounded-xl p-4 text-center">
-                        <div className="text-xl font-stat font-bold text-white">{r.value}</div>
-                        <div className="text-xs text-white/60">{r.label}</div>
+                        <div className="text-xl font-stat font-bold text-text">{r.value}</div>
+                        <div className="text-xs text-muted">{r.label}</div>
                       </div>
                     ))}
                   </div>
@@ -223,12 +223,13 @@ export default function MetaAdsPage() {
         </section>
 
         {/* Process Timeline */}
-        <section className="section-padding bg-dark text-white">
+        <section className="section-padding bg-gray-50 text-text">
           <div className="container-custom">
             <SectionHeader
               badge="Our Process"
               title="8-Step Meta Ads Framework"
               description="A proven process that turns ad spend into measurable business growth."
+              dark
             />
             <div className="mt-12 max-w-4xl mx-auto">
               {processSteps.map((step, i) => (
@@ -243,7 +244,7 @@ export default function MetaAdsPage() {
                   </div>
                   <div className="pb-8">
                     <h3 className="text-lg font-heading font-semibold mb-1">{step.title}</h3>
-                    <p className="text-white/60 text-sm">{step.description}</p>
+                    <p className="text-muted text-sm">{step.description}</p>
                   </div>
                 </div>
               ))}
@@ -271,12 +272,12 @@ export default function MetaAdsPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Ready to Scale with Meta Ads?
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Get a free audit of your current Meta Ads campaigns and discover opportunities for growth.
             </p>
             <Link

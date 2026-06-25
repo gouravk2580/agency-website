@@ -25,19 +25,19 @@ export default function ServicesPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
           </div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                 Our{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
                   Services
                 </span>
               </h1>
-              <p className="text-lg text-white/70">
+              <p className="text-lg text-muted">
                 End-to-end digital marketing solutions designed to drive measurable
                 growth for your business.
               </p>

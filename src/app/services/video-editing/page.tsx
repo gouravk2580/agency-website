@@ -78,23 +78,23 @@ export default function VideoEditingPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
           </div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10 mb-6">
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-muted border border-white/10 mb-6">
                 <Video className="w-4 h-4 text-primary-light" />
                 Video Editing
               </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                 Professional Video Editing for{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
                   Brands
                 </span>
               </h1>
-              <p className="text-lg text-white/70 mb-8 max-w-lg">
+              <p className="text-lg text-muted mb-8 max-w-lg">
                 Professional video editing that captivates audiences and drives
                 engagement. From social media clips to brand films, we deliver excellence.
               </p>
@@ -107,7 +107,7 @@ export default function VideoEditingPage() {
                 </Link>
                 <a
                   href="tel:+919667169645"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
                 >
                   <Phone className="w-5 h-5" /> Call Us
                 </a>
@@ -167,14 +167,14 @@ export default function VideoEditingPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-dark rounded-3xl p-8 relative overflow-hidden">
+              <div className="bg-gray-100 rounded-3xl p-8 relative overflow-hidden">
                 <div className="grid grid-cols-3 gap-4">
                   {["Raw", "Corrected", "Graded"].map((stage, i) => (
                     <div key={i} className="text-center">
                       <div className={`aspect-video rounded-xl mb-2 ${
                         i === 0 ? "bg-gray-500" : i === 1 ? "bg-gray-700" : "bg-gradient-to-br from-primary to-accent"
                       }`} />
-                      <span className="text-xs text-white/60">{stage}</span>
+                      <span className="text-xs text-muted">{stage}</span>
                     </div>
                   ))}
                 </div>
@@ -195,14 +195,14 @@ export default function VideoEditingPage() {
               {portfolio.map((item, i) => (
                 <div
                   key={i}
-                  className="group relative aspect-video bg-gradient-to-br from-dark to-primary/30 rounded-2xl overflow-hidden cursor-pointer"
+                  className="group relative aspect-video bg-gradient-to-br from-primary/20 to-accent/10 rounded-2xl overflow-hidden cursor-pointer"
                 >
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/40">
                     <Play className="w-12 h-12 text-white" />
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                    <span className="text-xs text-white/60">{item.category}</span>
-                    <h3 className="text-white font-heading font-semibold">{item.title}</h3>
+                    <span className="text-xs text-muted">{item.category}</span>
+                    <h3 className="text-text font-heading font-semibold">{item.title}</h3>
                   </div>
                 </div>
               ))}
@@ -211,7 +211,7 @@ export default function VideoEditingPage() {
         </section>
 
         {/* Process */}
-        <section className="section-padding bg-dark text-white">
+        <section className="section-padding bg-gray-50 text-text">
           <div className="container-custom">
             <SectionHeader
               badge="Process"
@@ -231,7 +231,7 @@ export default function VideoEditingPage() {
                   </div>
                   <div className="pb-8">
                     <h3 className="text-lg font-heading font-semibold mb-1">{step.title}</h3>
-                    <p className="text-white/60 text-sm">{step.description}</p>
+                    <p className="text-muted text-sm">{step.description}</p>
                   </div>
                 </div>
               ))}
@@ -240,12 +240,12 @@ export default function VideoEditingPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Ready to Create Stunning Videos?
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Let's transform your raw footage into compelling content that captivates your audience.
             </p>
             <Link

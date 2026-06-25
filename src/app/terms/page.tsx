@@ -12,12 +12,12 @@ export default function TermsPage() {
     <>
       <Navbar />
       <main className="flex-1">
-        <section className="pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20">
+        <section className="pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5">
           <div className="container-custom">
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-text">
               Terms of Service
             </h1>
-            <p className="text-white/60 mt-4">Last updated: June 2024</p>
+            <p className="text-muted mt-4">Last updated: June 2024</p>
           </div>
         </section>
 

@@ -363,16 +363,16 @@ export default function BlogArticlePage() {
         </div>
 
         {/* Hero */}
-        <section className="relative pt-32 pb-12 bg-gradient-to-br from-dark via-dark to-primary/20">
+        <section className="relative pt-32 pb-12 bg-gradient-to-br from-white via-gray-50 to-primary/5">
           <div className="container-custom relative z-10">
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 text-white/60 hover:text-white text-sm mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-text text-sm mb-6 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" /> Back to Blog
             </Link>
             <div className="max-w-3xl">
-              <div className="flex items-center gap-4 text-sm text-white/60 mb-4">
+              <div className="flex items-center gap-4 text-sm text-muted mb-4">
                 <span className="flex items-center gap-1">
                   <Tag className="w-3 h-3" /> {post.category}
                 </span>
@@ -381,7 +381,7 @@ export default function BlogArticlePage() {
                 </span>
                 <span>{post.date}</span>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white leading-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-text leading-tight mb-6">
                 {post.title}
               </h1>
               <div className="flex items-center gap-3">
@@ -389,8 +389,8 @@ export default function BlogArticlePage() {
                   <User className="w-5 h-5 text-primary-light" />
                 </div>
                 <div>
-                  <p className="text-white text-sm font-medium">{post.author}</p>
-                  <p className="text-white/50 text-xs">Published on {post.date}</p>
+                  <p className="text-text text-sm font-medium">{post.author}</p>
+                  <p className="text-muted text-xs">Published on {post.date}</p>
                 </div>
               </div>
             </div>
@@ -664,12 +664,12 @@ export default function BlogArticlePage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Ready to Grow Your Business?
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Let&apos;s discuss how our strategies can help you achieve similar results.
             </p>
             <Link

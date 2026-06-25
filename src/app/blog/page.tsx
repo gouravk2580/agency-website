@@ -89,12 +89,12 @@ export default function BlogPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-12 bg-gradient-to-br from-dark via-dark to-primary/20">
+        <section className="relative pt-32 pb-12 bg-gradient-to-br from-white via-gray-50 to-primary/5">
           <div className="container-custom relative z-10">
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-text mb-4">
               Our Blog
             </h1>
-            <p className="text-lg text-white/70 max-w-2xl">
+            <p className="text-lg text-muted max-w-2xl">
               Insights, tips, and strategies for growing your business through performance marketing.
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function BlogPage() {
                   <Link href={`/blog/${featured.slug}`} className="block mb-8">
                     <div className="bg-surface rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all group">
                       <div className="h-64 bg-gradient-to-br from-primary to-dark flex items-center justify-center">
-                        <span className="text-white/80 text-lg font-heading font-semibold">
+                        <span className="text-text text-lg font-heading font-semibold">
                           Featured
                         </span>
                       </div>
@@ -194,8 +194,8 @@ export default function BlogPage() {
                       href={`/blog/${post.slug}`}
                       className="bg-surface rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-all group"
                     >
-                      <div className="h-40 bg-gradient-to-br from-dark to-primary/30 flex items-center justify-center">
-                        <span className="text-white/60 text-sm">{post.category}</span>
+                      <div className="h-40 bg-gradient-to-br from-primary/20 to-accent/10 flex items-center justify-center">
+                        <span className="text-muted text-sm">{post.category}</span>
                       </div>
                       <div className="p-5">
                         <div className="flex items-center gap-3 text-xs text-muted mb-2">

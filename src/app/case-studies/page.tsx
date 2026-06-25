@@ -83,16 +83,16 @@ export default function CaseStudiesPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-20 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-20 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
                 Results That{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
                   Speak
                 </span>
               </h1>
-              <p className="text-lg text-white/70">
+              <p className="text-lg text-muted">
                 Real case studies from real clients. See the measurable impact of our
                 performance marketing strategies.
               </p>
@@ -170,14 +170,14 @@ export default function CaseStudiesPage() {
                     </div>
 
                     {/* Testimonial */}
-                    <div className="mt-8 bg-dark rounded-xl p-6 text-white">
+                    <div className="mt-8 bg-white rounded-xl p-6 text-text border border-border">
                       <Quote className="w-8 h-8 text-primary/40 mb-3" />
                       <p className="text-sm leading-relaxed mb-4 italic">
                         &ldquo;{study.testimonial.content}&rdquo;
                       </p>
                       <div>
                         <p className="font-heading font-semibold text-sm">{study.testimonial.name}</p>
-                        <p className="text-xs text-white/60">{study.testimonial.role}</p>
+                        <p className="text-xs text-muted">{study.testimonial.role}</p>
                       </div>
                     </div>
                   </div>
@@ -188,12 +188,12 @@ export default function CaseStudiesPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
               Want Similar Results?
             </h2>
-            <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
               Let&apos;s discuss how we can help your business achieve measurable growth.
             </p>
             <Link

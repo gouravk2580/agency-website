@@ -67,13 +67,13 @@ export default function ContactPage() {
       <Navbar />
       <main className="flex-1">
         {/* Hero */}
-        <section className="relative pt-32 pb-12 bg-gradient-to-br from-dark via-dark to-primary/20 overflow-hidden">
+        <section className="relative pt-32 pb-12 bg-gradient-to-br from-white via-gray-50 to-primary/5 overflow-hidden">
           <div className="container-custom relative z-10">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl font-heading font-bold text-white leading-tight mb-4">
+              <h1 className="text-4xl md:text-5xl font-heading font-bold text-text leading-tight mb-4">
                 Let&apos;s Talk Growth
               </h1>
-              <p className="text-lg text-white/70">
+              <p className="text-lg text-muted">
                 Ready to scale your business? Get in touch for a free marketing audit.
               </p>
             </div>
@@ -86,42 +86,42 @@ export default function ContactPage() {
             <div className="grid lg:grid-cols-3 gap-12">
               {/* Contact Info Card */}
               <div className="lg:col-span-1">
-                <div className="bg-dark text-white rounded-2xl p-8 sticky top-24">
+                <div className="bg-white rounded-2xl p-8 sticky top-24 border border-border shadow-lg">
                   <h2 className="text-xl font-heading font-semibold mb-6">Contact Info</h2>
 
                   <div className="space-y-6">
                     <a
                       href={`mailto:${CONTACT_INFO.email}`}
-                      className="flex items-center gap-4 text-white/80 hover:text-white transition-colors"
+                      className="flex items-center gap-4 text-text hover:text-white transition-colors"
                     >
                       <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
                         <Mail className="w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-sm text-white/60">Email</p>
+                        <p className="text-sm text-muted">Email</p>
                         <p className="text-sm">{CONTACT_INFO.email}</p>
                       </div>
                     </a>
 
                     <a
                       href={`tel:${CONTACT_INFO.phone.replace(/\s/g, "")}`}
-                      className="flex items-center gap-4 text-white/80 hover:text-white transition-colors"
+                      className="flex items-center gap-4 text-text hover:text-white transition-colors"
                     >
                       <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
                         <Phone className="w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-sm text-white/60">Phone</p>
+                        <p className="text-sm text-muted">Phone</p>
                         <p className="text-sm">{CONTACT_INFO.phone}</p>
                       </div>
                     </a>
 
-                    <div className="flex items-center gap-4 text-white/80">
+                    <div className="flex items-center gap-4 text-text">
                       <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
                         <MapPin className="w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-sm text-white/60">Address</p>
+                        <p className="text-sm text-muted">Address</p>
                         <p className="text-sm">
                           {CONTACT_INFO.address.line1}, {CONTACT_INFO.address.line2},{" "}
                           {CONTACT_INFO.address.city} - {CONTACT_INFO.address.pincode}
@@ -133,25 +133,25 @@ export default function ContactPage() {
                       href={`https://wa.me/${CONTACT_INFO.whatsapp.replace(/[\s+]/g, "")}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-4 text-white/80 hover:text-white transition-colors"
+                      className="flex items-center gap-4 text-text hover:text-white transition-colors"
                     >
                       <div className="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center">
                         <MessageCircle className="w-5 h-5 text-green-400" />
                       </div>
                       <div>
-                        <p className="text-sm text-white/60">WhatsApp</p>
+                        <p className="text-sm text-muted">WhatsApp</p>
                         <p className="text-sm">{CONTACT_INFO.whatsapp}</p>
                       </div>
                     </a>
 
-                    <div className="flex items-center gap-4 text-white/80">
+                    <div className="flex items-center gap-4 text-text">
                       <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
                         <Clock className="w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-sm text-white/60">Working Hours</p>
+                        <p className="text-sm text-muted">Working Hours</p>
                         <p className="text-sm">Mon - Sat: 10:00 AM - 7:00 PM</p>
-                        <p className="text-xs text-white/40">Sunday: Closed</p>
+                        <p className="text-xs text-muted">Sunday: Closed</p>
                       </div>
                     </div>
                   </div>
