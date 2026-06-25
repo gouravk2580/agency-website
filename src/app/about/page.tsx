@@ -18,7 +18,7 @@ import SectionHeader from "@/components/SectionHeader";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about DigiAero - a performance marketing agency driven by data, creativity, and a passion for results.",
+    "Learn about ZapZoom - a performance marketing agency driven by data, creativity, and a passion for results.",
 };
 
 const values = [
@@ -29,7 +29,7 @@ const values = [
 ];
 
 const timeline = [
-  { year: "2019", title: "Founded", description: "DigiAero started with a vision to make performance marketing accessible to every business." },
+  { year: "2019", title: "Founded", description: "ZapZoom started with a vision to make performance marketing accessible to every business." },
   { year: "2020", title: "First 50 Clients", description: "Reached our first 50 clients milestone with a 95% retention rate." },
   { year: "2021", title: "Team Expansion", description: "Grew to a team of 25+ specialists across marketing, creative, and strategy." },
   { year: "2022", title: "100+ Clients", description: "Crossed 100 active clients and ₹10Cr+ in managed ad spend." },
@@ -58,7 +58,7 @@ export default function AboutPage() {
             <div className="max-w-3xl">
               <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10 mb-6">
                 <Users className="w-4 h-4 text-primary-light" />
-                About DigiAero
+                About ZapZoom
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
                 We're on a Mission to{" "}
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 Digital Marketing
               </h1>
               <p className="text-lg text-white/70 mb-8 max-w-lg">
-                Founded in 2019, DigiAero has grown from a two-person startup to a 25+ member team
+                Founded in 2019, ZapZoom has grown from a two-person startup to a 25+ member team
                 serving 150+ businesses across India and Southeast Asia.
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
                   likes and followers instead of revenue and profit.
                 </p>
                 <p>
-                  DigiAero was founded to change that. We believe every business deserves
+                  ZapZoom was founded to change that. We believe every business deserves
                   transparent, data-driven marketing that delivers measurable ROI. No black boxes,
                   no vanity metrics — just results that matter.
                 </p>
@@ -193,7 +193,7 @@ export default function AboutPage() {
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-6 max-w-xs">
                   <p className="text-sm text-muted italic leading-relaxed">
-                    &quot;We started DigiAero with a simple mission — to make performance marketing transparent and results-driven.&quot;
+                    &quot;We started ZapZoom with a simple mission — to make performance marketing transparent and results-driven.&quot;
                   </p>
                 </div>
               </div>
@@ -201,7 +201,7 @@ export default function AboutPage() {
                 <SectionHeader
                   badge="Leadership"
                   title="Meet Our Founder"
-                  description="Driving the vision behind DigiAero's growth and success."
+                  description="Driving the vision behind ZapZoom's growth and success."
                   centered={false}
                 />
                 <div className="mt-6 space-y-4">
@@ -210,7 +210,7 @@ export default function AboutPage() {
                     <p className="text-primary font-medium text-sm">Founder & CEO</p>
                   </div>
                   <p className="text-muted leading-relaxed">
-                    With over 10 years of experience in digital marketing, Arjun founded DigiAero
+                    With over 10 years of experience in digital marketing, Arjun founded ZapZoom
                     to bridge the gap between businesses and measurable marketing results. His
                     data-first approach has helped over 150 businesses scale their digital presence.
                   </p>

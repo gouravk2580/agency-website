@@ -33,7 +33,7 @@ const blogPosts: Record<
   "meta-ads-strategy-2024": {
     title: "The Ultimate Meta Ads Strategy for 2024",
     category: "Meta Ads",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "Jun 15, 2024",
     readTime: "8 min read",
     tableOfContents: [
@@ -85,7 +85,7 @@ const blogPosts: Record<
   "google-ads-vs-meta-ads": {
     title: "Google Ads vs Meta Ads: Which is Right for Your Business?",
     category: "Performance Marketing",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "Jun 10, 2024",
     readTime: "12 min read",
     tableOfContents: [
@@ -127,7 +127,7 @@ const blogPosts: Record<
   "seo-checklist-2024": {
     title: "The Complete SEO Checklist for 2024",
     category: "SEO",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "Jun 5, 2024",
     readTime: "15 min read",
     tableOfContents: [
@@ -176,7 +176,7 @@ const blogPosts: Record<
   "video-marketing-trends": {
     title: "Video Marketing Trends You Can't Ignore in 2024",
     category: "Video Marketing",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "May 28, 2024",
     readTime: "6 min read",
     tableOfContents: [
@@ -217,7 +217,7 @@ const blogPosts: Record<
   "ecommerce-ad-strategy": {
     title: "How to Build a Profitable E-commerce Ad Strategy",
     category: "Case Studies",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "May 20, 2024",
     readTime: "10 min read",
     tableOfContents: [
@@ -261,7 +261,7 @@ const blogPosts: Record<
   "local-seo-guide": {
     title: "Local SEO: Dominate Your Local Market",
     category: "SEO",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "May 15, 2024",
     readTime: "7 min read",
     tableOfContents: [
@@ -307,7 +307,7 @@ const blogPosts: Record<
 const defaultPost = {
   title: "Article Not Found",
   category: "General",
-  author: "DigiAero Team",
+  author: "ZapZoom Team",
   date: "Jan 1, 2024",
   readTime: "5 min read",
   tableOfContents: [],
@@ -476,7 +476,7 @@ export default function BlogArticlePage() {
                       </div>
                     </div>
                     <p className="text-xs text-muted leading-relaxed">
-                      Expert insights from the DigiAero marketing team on performance marketing, advertising, and growth strategies.
+                      Expert insights from the ZapZoom marketing team on performance marketing, advertising, and growth strategies.
                     </p>
                   </div>
                 </div>

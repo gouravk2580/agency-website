@@ -25,11 +25,11 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    default: "DigiAero | Performance Marketing Agency",
-    template: "%s | DigiAero",
+    default: "ZapZoom | Performance Marketing Agency",
+    template: "%s | ZapZoom",
   },
   description:
-    "DigiAero is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing. We drive measurable results for businesses.",
+    "ZapZoom is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing. We drive measurable results for businesses.",
   keywords: [
     "performance marketing",
     "digital marketing agency",
@@ -41,21 +41,21 @@ export const metadata: Metadata = {
     "lead generation",
     "ROI marketing",
   ],
-  authors: [{ name: "DigiAero" }],
-  creator: "DigiAero",
+  authors: [{ name: "ZapZoom" }],
+  creator: "ZapZoom",
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "DigiAero",
-    title: "DigiAero | Performance Marketing Agency",
+    siteName: "ZapZoom",
+    title: "ZapZoom | Performance Marketing Agency",
     description:
-      "DigiAero is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing.",
+      "ZapZoom is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "DigiAero | Performance Marketing Agency",
+    title: "ZapZoom | Performance Marketing Agency",
     description:
-      "DigiAero is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing.",
+      "ZapZoom is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing.",
   },
   robots: {
     index: true,

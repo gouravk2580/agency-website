@@ -52,7 +52,7 @@ export default function ContactPage() {
       body: JSON.stringify({
         access_key: "362982fa-ab00-4d1f-86dc-da4e036026c0",
         subject: `New Contact Form Submission from ${data.name}`,
-        from_name: "DigiAero Website",
+        from_name: "ZapZoom Website",
         ...data,
       }),
     });

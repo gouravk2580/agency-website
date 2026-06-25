@@ -18,7 +18,7 @@ const blogPosts = [
     excerpt:
       "Learn the proven framework we use to achieve 5x+ ROAS for our clients on Facebook and Instagram.",
     category: "Meta Ads",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "Jun 15, 2024",
     readTime: "8 min read",
     featured: true,
@@ -29,7 +29,7 @@ const blogPosts = [
     excerpt:
       "A comprehensive comparison to help you choose the right advertising platform for your goals.",
     category: "Performance Marketing",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "Jun 10, 2024",
     readTime: "12 min read",
     featured: false,
@@ -40,7 +40,7 @@ const blogPosts = [
     excerpt:
       "Everything you need to know to rank #1 on Google in 2024, from technical SEO to content strategy.",
     category: "SEO",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "Jun 5, 2024",
     readTime: "15 min read",
     featured: false,
@@ -51,7 +51,7 @@ const blogPosts = [
     excerpt:
       "Short-form content, AI editing, and interactive videos — the trends shaping video marketing.",
     category: "Video Marketing",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "May 28, 2024",
     readTime: "6 min read",
     featured: false,
@@ -62,7 +62,7 @@ const blogPosts = [
     excerpt:
       "From product listing optimization to remarketing funnels — a complete guide.",
     category: "Case Studies",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "May 20, 2024",
     readTime: "10 min read",
     featured: false,
@@ -73,7 +73,7 @@ const blogPosts = [
     excerpt:
       "Practical tips to improve your local search visibility and drive foot traffic.",
     category: "SEO",
-    author: "DigiAero Team",
+    author: "ZapZoom Team",
     date: "May 15, 2024",
     readTime: "7 min read",
     featured: false,

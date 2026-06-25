@@ -1,8 +1,8 @@
 // ===== Site Info =====
-export const SITE_NAME = "DigiAero";
-export const SITE_URL = "https://digiaero.in";
+export const SITE_NAME = "ZapZoom";
+export const SITE_URL = "https://zapzoom.in";
 export const SITE_DESCRIPTION =
-  "DigiAero is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing. We drive measurable results for businesses.";
+  "ZapZoom is a performance marketing agency specializing in Meta Ads, Google Ads, SEO, and Video Editing. We drive measurable results for businesses.";
 
 // ===== Navigation =====
 export const NAV_LINKS = [
@@ -165,7 +165,7 @@ export const TESTIMONIALS = [
     company: "TechVentures India",
     role: "CEO",
     content:
-      "DigiAero transformed our digital presence. Our leads increased by 300% in just 3 months. Their data-driven approach is unmatched.",
+      "ZapZoom transformed our digital presence. Our leads increased by 300% in just 3 months. Their data-driven approach is unmatched.",
     rating: 5,
   },
   {
@@ -181,7 +181,7 @@ export const TESTIMONIALS = [
     company: "GreenLeaf Organics",
     role: "Founder",
     content:
-      "Professional, transparent, and results-oriented. DigiAero helped us scale from a small startup to a recognized brand.",
+      "Professional, transparent, and results-oriented. ZapZoom helped us scale from a small startup to a recognized brand.",
     rating: 5,
   },
 ];
@@ -265,7 +265,7 @@ export const FOOTER_LEGAL = [
 
 // ===== Contact Info =====
 export const CONTACT_INFO = {
-  email: "hello@digiaero.in",
+  email: "hello@zapzoom.in",
   phone: "+91 98765 43210",
   whatsapp: "+91 98765 43210",
   address: {
@@ -276,11 +276,11 @@ export const CONTACT_INFO = {
     country: "India",
   },
   social: {
-    facebook: "https://facebook.com/digiaero",
-    instagram: "https://instagram.com/digiaero",
-    linkedin: "https://linkedin.com/company/digiaero",
-    twitter: "https://twitter.com/digiaero",
-    youtube: "https://youtube.com/@digiaero",
+    facebook: "https://facebook.com/zapzoom",
+    instagram: "https://instagram.com/zapzoom",
+    linkedin: "https://linkedin.com/company/zapzoom",
+    twitter: "https://twitter.com/zapzoom",
+    youtube: "https://youtube.com/@zapzoom",
   },
   mapEmbed:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5!2d77.6!3d12.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzAwLjAiTiA3N8KwMzYnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890",

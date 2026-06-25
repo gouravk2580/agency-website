@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "DigiAero's terms of service governing the use of our website and services.",
+  description: "ZapZoom's terms of service governing the use of our website and services.",
 };
 
 export default function TermsPage() {
@@ -26,14 +26,14 @@ export default function TermsPage() {
             <div className="prose prose-lg max-w-none">
               <h2>1. Acceptance of Terms</h2>
               <p>
-                By accessing and using the DigiAero website and services, you accept and agree
+                By accessing and using the ZapZoom website and services, you accept and agree
                 to be bound by these Terms of Service. If you do not agree to these terms,
                 please do not use our services.
               </p>
 
               <h2>2. Services</h2>
               <p>
-                DigiAero provides performance marketing services including but not limited to
+                ZapZoom provides performance marketing services including but not limited to
                 Meta Ads management, Google Ads management, SEO services, and video editing.
                 The specific scope of services will be outlined in a separate service agreement.
               </p>
@@ -56,14 +56,14 @@ export default function TermsPage() {
 
               <h2>5. Intellectual Property</h2>
               <p>
-                All content, strategies, and deliverables created by DigiAero remain the
-                intellectual property of DigiAero until full payment is received. Upon payment,
+                All content, strategies, and deliverables created by ZapZoom remain the
+                intellectual property of ZapZoom until full payment is received. Upon payment,
                 clients receive a non-exclusive license to use deliverables.
               </p>
 
               <h2>6. Limitation of Liability</h2>
               <p>
-                DigiAero shall not be liable for any indirect, incidental, or consequential
+                ZapZoom shall not be liable for any indirect, incidental, or consequential
                 damages. Our total liability shall not exceed the fees paid for the specific
                 service giving rise to the claim.
               </p>
@@ -76,7 +76,7 @@ export default function TermsPage() {
 
               <h2>8. Contact</h2>
               <p>
-                For questions about these terms, contact us at hello@digiaero.in or
+                For questions about these terms, contact us at hello@zapzoom.in or
                 +91 98765 43210.
               </p>
             </div>

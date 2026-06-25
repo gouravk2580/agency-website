@@ -28,7 +28,7 @@ const caseStudies = [
       { metric: "Conversion Rate", before: "2.1%", after: "5.8%", change: "+176%" },
     ],
     testimonial: {
-      content: "DigiAero transformed our lead generation. We're now filling our pipeline with qualified prospects at a fraction of the previous cost.",
+      content: "ZapZoom transformed our lead generation. We're now filling our pipeline with qualified prospects at a fraction of the previous cost.",
       name: "Rajesh Kumar",
       role: "CEO, TechVentures India",
     },
@@ -70,7 +70,7 @@ const caseStudies = [
       { metric: "Organic Revenue", before: "₹2L/month", after: "₹18L/month", change: "+800%" },
     ],
     testimonial: {
-      content: "DigiAero helped us reduce our dependency on paid ads from 80% to 40% of our revenue. The organic growth has been transformational.",
+      content: "ZapZoom helped us reduce our dependency on paid ads from 80% to 40% of our revenue. The organic growth has been transformational.",
       name: "Amit Patel",
       role: "Founder, GreenLeaf Organics",
     },
