@@ -272,7 +272,7 @@ export default function HomePage() {
         </section>
 
         {/* ===== OUR PROCESS ===== */}
-        <section className="section-padding bg-dark text-white">
+        <section className="section-padding bg-gray-50 text-text">
           <div className="container-custom">
             <SectionHeader
               badge="Our Process"
@@ -287,7 +287,7 @@ export default function HomePage() {
               className="mt-12 relative"
             >
               {/* Timeline Line */}
-              <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-white/10 -translate-y-1/2" />
+              <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-border -translate-y-1/2" />
 
               <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
                 {PROCESS_STEPS.map((step, i) => (
@@ -302,7 +302,7 @@ export default function HomePage() {
                     <h3 className="text-lg font-heading font-semibold mb-2">
                       {step.title}
                     </h3>
-                    <p className="text-white/60 text-sm">{step.description}</p>
+                    <p className="text-muted text-sm">{step.description}</p>
                   </motion.div>
                 ))}
               </div>
@@ -496,7 +496,7 @@ export default function HomePage() {
         </section>
 
         {/* ===== FINAL CTA ===== */}
-        <section className="section-padding bg-gradient-to-br from-primary to-dark text-white">
+        <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <motion.div
               initial="hidden"
@@ -512,7 +512,7 @@ export default function HomePage() {
               </motion.h2>
               <motion.p
                 variants={fadeInUp}
-                className="text-lg text-white/70 mb-8 max-w-2xl mx-auto"
+                className="text-lg text-muted mb-8 max-w-2xl mx-auto"
               >
                 Get a free marketing audit and discover how we can help you
                 achieve 3-5x ROAS on your ad spend.
@@ -529,7 +529,7 @@ export default function HomePage() {
                 </Link>
                 <a
                   href="tel:+919667169645"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold border border-border hover:bg-gray-200 transition-all"
                 >
                   <Phone className="w-5 h-5" /> Call Us Now
                 </a>
