@@ -76,8 +76,8 @@ export default function TermsPage() {
 
               <h2>8. Contact</h2>
               <p>
-                For questions about these terms, contact us at hello@zapzoom.in or
-                +91 98765 43210.
+                For questions about these terms, contact us at zapzoomv@gmail.com or
+                +91 9667169645.
               </p>
             </div>
           </div>

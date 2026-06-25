@@ -265,14 +265,14 @@ export const FOOTER_LEGAL = [
 
 // ===== Contact Info =====
 export const CONTACT_INFO = {
-  email: "hello@zapzoom.in",
-  phone: "+91 98765 43210",
-  whatsapp: "+91 98765 43210",
+  email: "zapzoomv@gmail.com",
+  phone: "+91 9667169645",
+  whatsapp: "+91 9667169645",
   address: {
-    line1: "123 Marketing Hub",
-    line2: "Koramangala, Bangalore",
-    city: "Karnataka",
-    pincode: "560034",
+    line1: "R-23, Office No 1, Block-R",
+    line2: "Shakarpur, Main Market, East Delhi",
+    city: "New Delhi, Delhi",
+    pincode: "110092",
     country: "India",
   },
   social: {

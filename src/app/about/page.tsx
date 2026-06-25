@@ -265,7 +265,7 @@ export default function AboutPage() {
               <div className="bg-gradient-to-br from-dark to-primary/30 rounded-3xl aspect-video flex items-center justify-center">
                 <div className="text-center">
                   <Building2 className="w-16 h-16 text-white/40 mx-auto mb-4" />
-                  <p className="text-white/60 text-sm">Koramangala, Bangalore</p>
+                  <p className="text-white/60 text-sm">Shakarpur, East Delhi, New Delhi</p>
                   <p className="text-white/40 text-xs mt-1">Where creativity meets strategy</p>
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default function AboutPage() {
                 Get in Touch <ArrowRight className="w-5 h-5" />
               </Link>
               <a
-                href="tel:+919876543210"
+                href="tel:+919667169645"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
               >
                 <Phone className="w-5 h-5" /> Call Us

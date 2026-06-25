@@ -123,7 +123,7 @@ export default function GoogleAdsPage() {
               Book Consultation <ArrowRight className="w-5 h-5" />
                 </Link>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919667169645"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
                 >
                   <Phone className="w-5 h-5" /> Call Us

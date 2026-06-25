@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
               <h2>6. Your Rights</h2>
               <p>
                 You have the right to access, correct, or delete your personal information. To
-                exercise these rights, please contact us at hello@zapzoom.in.
+                exercise these rights, please contact us at zapzoomv@gmail.com.
               </p>
 
               <h2>7. Changes to This Policy</h2>
@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
               <h2>8. Contact Us</h2>
               <p>
                 If you have any questions about this privacy policy, please contact us at
-                hello@zapzoom.in or call us at +91 98765 43210.
+                zapzoomv@gmail.com or call us at +91 9667169645.
               </p>
             </div>
           </div>

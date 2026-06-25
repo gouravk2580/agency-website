@@ -222,7 +222,7 @@ export default function ContactPage() {
                           type="tel"
                           {...register("phone")}
                           className="w-full px-4 py-3 bg-surface border border-border rounded-xl text-text focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
-                          placeholder="+91 98765 43210"
+                          placeholder="+91 9667169645"
                         />
                         {errors.phone && (
                           <p className="mt-1 text-sm text-red-500">{errors.phone.message}</p>
