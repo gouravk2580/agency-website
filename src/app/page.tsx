@@ -57,10 +57,10 @@ export default function HomePage() {
       <Navbar />
       <main className="flex-1">
         {/* ===== HERO ===== */}
-        <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-dark via-dark to-primary/20">
+        <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-white via-gray-50 to-primary/5">
           {/* Background Elements */}
           <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-float" />
+            <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
           </div>
 
@@ -72,14 +72,14 @@ export default function HomePage() {
                 variants={staggerContainer}
               >
                 <motion.div variants={fadeInUp} className="mb-4">
-                  <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm text-white/80 border border-white/10">
-                    <Zap className="w-4 h-4 text-accent" />
+                  <span className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 backdrop-blur-sm rounded-full text-sm text-primary font-medium border border-primary/20">
+                    <Zap className="w-4 h-4 text-primary" />
                     Performance Marketing Agency
                   </span>
                 </motion.div>
                 <motion.h1
                   variants={fadeInUp}
-                  className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6"
+                  className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6"
                 >
                   Grow Your Business with{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
@@ -89,7 +89,7 @@ export default function HomePage() {
                 </motion.h1>
                 <motion.p
                   variants={fadeInUp}
-                  className="text-lg text-white/70 mb-8 max-w-lg"
+                  className="text-lg text-muted mb-8 max-w-lg"
                 >
                   We help businesses scale through strategic Meta Ads, Google Ads,
                   SEO, and professional video editing. Real results, real growth.
@@ -107,7 +107,7 @@ export default function HomePage() {
                   </Link>
                   <Link
                     href="/case-studies"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 text-white rounded-full font-semibold backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-text rounded-full font-semibold border border-border hover:bg-gray-200 transition-all"
                   >
                     View Case Studies
                   </Link>
@@ -121,18 +121,18 @@ export default function HomePage() {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="relative hidden lg:block"
               >
-                <div className="relative bg-white/10 backdrop-blur-xl rounded-3xl p-8 border border-white/20">
+                <div className="relative bg-white backdrop-blur-xl rounded-3xl p-8 border border-border shadow-lg">
                   <div className="grid grid-cols-2 gap-4">
                     {STATS.slice(0, 4).map((stat, i) => (
                       <div
                         key={i}
-                        className="bg-white/10 rounded-2xl p-6 text-center"
+                        className="bg-gray-50 rounded-2xl p-6 text-center"
                       >
-                        <div className="text-3xl font-stat font-bold text-white mb-1">
+                        <div className="text-3xl font-stat font-bold text-primary mb-1">
                           ₹{stat.value}
                           {stat.suffix}
                         </div>
-                        <div className="text-sm text-white/60">{stat.label}</div>
+                        <div className="text-sm text-muted">{stat.label}</div>
                       </div>
                     ))}
                   </div>
