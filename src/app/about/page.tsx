@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Learn about ZapZoom - a performance marketing agency driven by data, creativity, and a passion for results.",
+  alternates: {
+    canonical: "https://zapzoom.in/about",
+  },
 };
 
 const values = [

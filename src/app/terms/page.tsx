@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "ZapZoom's terms of service governing the use of our website and services.",
+  alternates: {
+    canonical: "https://zapzoom.in/terms",
+  },
 };
 
 export default function TermsPage() {

@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "SEO Services",
   description:
     "Comprehensive SEO strategies that improve your organic visibility and drive sustainable long-term traffic growth.",
+  alternates: {
+    canonical: "https://zapzoom.in/services/seo",
+  },
 };
 
 const services = [

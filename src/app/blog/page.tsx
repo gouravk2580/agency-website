@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Insights, tips, and strategies for performance marketing, Meta Ads, Google Ads, SEO, and video content.",
+  alternates: {
+    canonical: "https://zapzoom.in/blog",
+  },
 };
 
 const blogPosts = [

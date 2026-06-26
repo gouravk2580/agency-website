@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "Meta Ads",
   description:
     "Strategic Facebook & Instagram advertising campaigns that deliver measurable results and maximize your return on ad spend.",
+  alternates: {
+    canonical: "https://zapzoom.in/services/meta-ads",
+  },
 };
 
 const services = [

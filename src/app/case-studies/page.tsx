@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Case Studies",
   description:
     "See how we've helped businesses achieve remarkable growth through data-driven performance marketing strategies.",
+  alternates: {
+    canonical: "https://zapzoom.in/case-studies",
+  },
 };
 
 const caseStudies = [

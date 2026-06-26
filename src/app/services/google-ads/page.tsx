@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Google Ads",
   description:
     "Data-driven Google Ads campaigns that put your business in front of high-intent customers ready to buy.",
+  alternates: {
+    canonical: "https://zapzoom.in/services/google-ads",
+  },
 };
 
 const adTypes = [

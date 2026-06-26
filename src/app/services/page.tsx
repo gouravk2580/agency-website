@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Services",
   description:
     "Comprehensive digital marketing services: Meta Ads, Google Ads, SEO, and Video Editing.",
+  alternates: {
+    canonical: "https://zapzoom.in/services",
+  },
 };
 
 const iconMap: Record<string, React.ElementType> = {

@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "ZapZoom's privacy policy outlining how we collect, use, and protect your data.",
+  alternates: {
+    canonical: "https://zapzoom.in/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

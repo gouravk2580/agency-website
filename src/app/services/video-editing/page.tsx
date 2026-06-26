@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "Video Editing",
   description:
     "Professional video editing services that transform raw footage into compelling content that captivates your audience.",
+  alternates: {
+    canonical: "https://zapzoom.in/services/video-editing",
+  },
 };
 
 const categories = [

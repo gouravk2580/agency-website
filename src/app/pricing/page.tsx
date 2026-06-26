@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Pricing",
   description:
     "Transparent pricing plans for Meta Ads, Google Ads, SEO, and Video Editing services. Choose the plan that fits your business.",
+  alternates: {
+    canonical: "https://zapzoom.in/pricing",
+  },
 };
 
 const plans = [
