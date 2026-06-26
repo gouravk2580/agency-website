@@ -302,6 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 .dark .bg-white\/80 { background-color: rgba(15, 23, 42, 0.8) !important; }
 .dark .bg-white\/10 { background-color: rgba(255, 255, 255, 0.05) !important; }
 .dark .text-text { color: #e2e8f0 !important; }
+.dark .text-text\/80 { color: rgba(226, 232, 240, 0.8) !important; }
 .dark .text-muted { color: #94a3b8 !important; }
 .dark .hover\:bg-gray-200:hover { background-color: #475569 !important; }
 .dark .hover\:bg-surface:hover { background-color: #334155 !important; }

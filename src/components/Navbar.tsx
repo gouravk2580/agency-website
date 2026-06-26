@@ -29,13 +29,12 @@ export default function Navbar() {
     >
       <nav className="container-custom flex items-center justify-between h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-            <span className="text-white font-heading font-bold text-lg">Z</span>
-          </div>
-          <span className="font-heading font-bold text-xl text-text dark:text-white">
-            {SITE_NAME}
-          </span>
+        <Link href="/" className="flex items-center">
+          <img
+            src="/zapzoom-logo.svg"
+            alt="ZapZoom"
+            className="h-10 w-auto"
+          />
         </Link>
 
         {/* Desktop Nav */}

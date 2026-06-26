@@ -15,13 +15,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-lg">
-                  Z
-                </span>
-              </div>
-              <span className="font-heading font-bold text-xl">{SITE_NAME}</span>
+            <Link href="/" className="flex items-center">
+              <img
+                src="/zapzoom-logo.svg"
+                alt="ZapZoom"
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Performance marketing agency driving measurable results through
