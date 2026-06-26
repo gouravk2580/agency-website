@@ -187,6 +187,45 @@ export default function CaseStudiesPage() {
           </div>
         </section>
 
+        {/* Real Results Gallery */}
+        <section className="section-padding bg-surface">
+          <div className="container-custom">
+            <SectionHeader
+              badge="Real Results"
+              title="Campaign Performance"
+              description="Actual Meta Ads dashboards from our client campaigns. No cherry-picking — real data, real results."
+            />
+            <div className="columns-2 md:columns-3 lg:columns-4 gap-4 mt-12 space-y-4">
+              {[
+                { src: "/case-studies/2.jpeg", alt: "106 leads at ₹36.56 CPL" },
+                { src: "/case-studies/11.jpeg", alt: "₹79.64 vs ₹450.05 CPL - Before/After" },
+                { src: "/case-studies/8.jpeg", alt: "253 leads at ₹16.35 CPL" },
+                { src: "/case-studies/9.jpeg", alt: "₹551K total spend overview" },
+                { src: "/case-studies/3.jpeg", alt: "Anglo Veda - 79 leads at ₹18.59 CPL" },
+                { src: "/case-studies/14.jpeg", alt: "121 leads at ₹89.10 CPL" },
+                { src: "/case-studies/4.jpeg", alt: "89 leads at ₹20.72 CPL" },
+                { src: "/case-studies/10.jpeg", alt: "98 leads at ₹14.08 CPL" },
+                { src: "/case-studies/6.jpeg", alt: "114 leads at ₹36.74 CPL" },
+                { src: "/case-studies/13.jpeg", alt: "36 leads at ₹13.36 CPL" },
+                { src: "/case-studies/5.jpeg", alt: "15 leads at ₹33.49 CPL" },
+                { src: "/case-studies/12.jpeg", alt: "12 leads at ₹50.52 CPL" },
+                { src: "/case-studies/7.jpeg", alt: "9 leads at ₹33.50 CPL" },
+              ].map((img, i) => (
+                <div key={i} className="break-inside-avoid relative group overflow-hidden rounded-xl border border-border hover:shadow-xl transition-all">
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-auto block group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    <p className="absolute bottom-3 left-3 right-3 text-white text-xs font-medium">{img.alt}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
