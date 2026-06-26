@@ -22,10 +22,13 @@ export const metadata: Metadata = {
 };
 
 const values = [
-  { icon: Target, title: "Results-Driven", description: "Every decision is measured against its impact on your business goals." },
-  { icon: Eye, title: "Transparency", description: "Full visibility into campaigns, spending, and performance at all times." },
-  { icon: Heart, title: "Client-First", description: "Your success is our success. We treat your business as our own." },
-  { icon: Award, title: "Excellence", description: "We never settle for good enough. Continuous improvement is in our DNA." },
+  { icon: Target, title: "Customized Marketing Strategies", description: "Tailored campaigns designed specifically for your business goals and target audience." },
+  { icon: Eye, title: "Lead Generation Focused", description: "Every campaign is optimized to generate high-quality leads that convert into customers." },
+  { icon: Heart, title: "Data-Driven Decision Making", description: "We use analytics and insights to drive every strategy, ensuring maximum ROI." },
+  { icon: Award, title: "Creative Content & Ad Design", description: "Eye-catching creatives and compelling content that captures attention and drives action." },
+  { icon: ArrowRight, title: "Transparent Reporting", description: "Full visibility into campaigns, spending, and performance at all times." },
+  { icon: Users, title: "Dedicated Support", description: "A dedicated account manager for every client, ensuring personalized attention and quick responses." },
+  { icon: Target, title: "ROI-Oriented Approach", description: "We don't just run campaigns — we build growth systems that deliver measurable results." },
 ];
 
 const timeline = [
@@ -61,15 +64,14 @@ export default function AboutPage() {
                 About ZapZoom
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-text leading-tight mb-6">
-                We're on a Mission to{" "}
+                We Help Businesses{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-accent">
-                  Demystify
+                  Grow Faster
                 </span>{" "}
-                Digital Marketing
+                Through Result-Driven Digital Marketing
               </h1>
               <p className="text-lg text-muted mb-8 max-w-lg">
-                Founded in 2019, ZapZoom has grown from a two-person startup to a 25+ member team
-                serving 150+ businesses across India and Southeast Asia.
+                Our mission is simple: generate more leads, increase brand visibility, and maximize revenue for our clients.
               </p>
             </div>
           </div>
@@ -81,26 +83,19 @@ export default function AboutPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <SectionHeader
                 badge="Our Story"
-                title="How It All Started"
-                description="Born from a frustration with agencies that prioritized vanity metrics over real business results."
+                title="What We Do"
+                description="End-to-end digital marketing solutions tailored to your business."
                 centered={false}
               />
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  We saw businesses pouring money into digital marketing without understanding
-                  where their money was going or what results it was driving. The industry was
-                  filled with jargon, opaque reporting, and agencies that measured success by
-                  likes and followers instead of revenue and profit.
+                  We specialize in end-to-end digital marketing solutions, including Meta Ads (Facebook & Instagram), Google Ads, Social Media Marketing, Search Engine Optimization (SEO), Content Marketing, Lead Generation, Website Optimization, Creative Design, Video Editing, Animation, and Performance Marketing.
                 </p>
                 <p>
-                  ZapZoom was founded to change that. We believe every business deserves
-                  transparent, data-driven marketing that delivers measurable ROI. No black boxes,
-                  no vanity metrics — just results that matter.
+                  Our team focuses on understanding each client&apos;s business goals and creating customized marketing campaigns that deliver measurable results. Whether you&apos;re a real estate company, startup, local business, e-commerce brand, or service provider, we develop data-driven strategies that help you attract the right audience and convert them into customers.
                 </p>
                 <p>
-                  Today, we're a team of 25+ passionate marketers, creatives, and strategists
-                  who live and breathe performance marketing. Our clients trust us because we
-                  treat their business as our own.
+                  What sets us apart is our commitment to transparency, creativity, and performance. We continuously monitor, optimize, and improve campaigns to ensure maximum return on investment (ROI).
                 </p>
               </div>
             </div>
@@ -128,8 +123,8 @@ export default function AboutPage() {
             </div>
 
             <SectionHeader
-              badge="Values"
-              title="What We Stand For"
+              badge="Why Choose Us"
+              title="Why Choose ZapZoom"
               centered={false}
             />
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
@@ -143,6 +138,9 @@ export default function AboutPage() {
                 </div>
               ))}
             </div>
+            <p className="text-center text-muted mt-8 text-lg">
+              We don&apos;t just run campaigns — we build growth systems that help businesses scale and succeed in today&apos;s competitive digital landscape.
+            </p>
           </div>
         </section>
 
@@ -323,10 +321,10 @@ export default function AboutPage() {
         <section className="section-padding bg-gradient-to-br from-primary/10 to-accent/5 text-text">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
-              Join Our Growing Family
+              Let&apos;s Grow Your Business Together
             </h2>
             <p className="text-lg text-muted mb-8 max-w-2xl mx-auto">
-              Ready to work with a team that's as invested in your success as you are?
+              Contact us today for a FREE Digital Marketing Audit and Growth Consultation.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Link
