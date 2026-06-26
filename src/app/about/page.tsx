@@ -204,16 +204,16 @@ export default function AboutPage() {
                 />
                 <div className="mt-6 space-y-4">
                   <div>
-                    <h3 className="text-xl font-heading font-bold text-text">Arjun Mehta</h3>
+                    <h3 className="text-xl font-heading font-bold text-text">Ankit Panchal</h3>
                     <p className="text-primary font-medium text-sm">Founder & CEO</p>
                   </div>
                   <p className="text-muted leading-relaxed">
-                    With over 10 years of experience in digital marketing, Arjun founded ZapZoom
+                    With over 10 years of experience in digital marketing, Ankit founded ZapZoom
                     to bridge the gap between businesses and measurable marketing results. His
                     data-first approach has helped over 150 businesses scale their digital presence.
                   </p>
                   <p className="text-muted leading-relaxed">
-                    Previously, Arjun led marketing teams at top tech companies and has been
+                    Previously, Ankit led marketing teams at top tech companies and has been
                     recognized as one of India&apos;s top young marketing leaders.
                   </p>
                 </div>
@@ -232,7 +232,7 @@ export default function AboutPage() {
             />
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
               {[
-                { name: "Arjun Mehta", role: "Founder & CEO", department: "Leadership" },
+                { name: "Ankit Panchal", role: "Founder & CEO", department: "Leadership" },
                 { name: "Priya Nair", role: "Head of Performance", department: "Marketing" },
                 { name: "Vikram Singh", role: "Creative Director", department: "Design" },
                 { name: "Ananya Rao", role: "SEO Lead", department: "Organic Growth" },
