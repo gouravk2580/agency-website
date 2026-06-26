@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/80 backdrop-blur-lg shadow-md border-b border-border"
+          ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg shadow-md border-b border-border dark:border-gray-700"
           : "bg-transparent"
       }`}
     >
@@ -32,7 +33,7 @@ export default function Navbar() {
           <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
             <span className="text-white font-heading font-bold text-lg">Z</span>
           </div>
-          <span className="font-heading font-bold text-xl text-text">
+          <span className="font-heading font-bold text-xl text-text dark:text-white">
             {SITE_NAME}
           </span>
         </Link>
@@ -50,7 +51,7 @@ export default function Navbar() {
             >
               <Link
                 href={link.href}
-                className="flex items-center gap-1 text-sm font-medium text-text hover:text-primary transition-colors"
+                className="flex items-center gap-1 text-sm font-medium text-text dark:text-gray-100 hover:text-primary transition-colors"
               >
                 {link.label}
                 {link.children && (
@@ -61,12 +62,12 @@ export default function Navbar() {
               {/* Dropdown */}
               {link.children && activeDropdown === link.label && (
                 <div className="absolute top-full left-0 pt-2">
-                  <div className="bg-white rounded-xl shadow-lg border border-border p-2 min-w-[200px]">
+                  <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-border dark:border-gray-700 p-2 min-w-[200px]">
                     {link.children.map((child) => (
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block px-4 py-2 text-sm text-text hover:bg-surface rounded-lg transition-colors"
+                        className="block px-4 py-2 text-sm text-text dark:text-gray-100 hover:bg-surface dark:hover:bg-gray-700 rounded-lg transition-colors"
                       >
                         {child.label}
                       </Link>
@@ -79,7 +80,8 @@ export default function Navbar() {
         </div>
 
         {/* CTA */}
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-3">
+          <ThemeToggle />
           <Link
             href="/contact"
             className="px-6 py-2.5 bg-primary text-white rounded-full text-sm font-semibold hover:bg-primary-dark transition-colors"
@@ -89,25 +91,28 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Toggle */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden p-2 text-text"
-          aria-label="Toggle menu"
-        >
-          {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        <div className="lg:hidden flex items-center gap-2">
+          <ThemeToggle />
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="p-2 text-text dark:text-white"
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-white border-t border-border">
+        <div className="lg:hidden bg-white dark:bg-gray-900 border-t border-border dark:border-gray-700">
           <div className="container-custom py-4 space-y-2">
             {NAV_LINKS.map((link) => (
               <div key={link.label}>
                 <Link
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="block py-2 text-text font-medium hover:text-primary"
+                  className="block py-2 text-text dark:text-white font-medium hover:text-primary"
                 >
                   {link.label}
                 </Link>
@@ -118,7 +123,7 @@ export default function Navbar() {
                         key={child.href}
                         href={child.href}
                         onClick={() => setIsOpen(false)}
-                        className="block py-1.5 text-sm text-muted hover:text-primary"
+                        className="block py-1.5 text-sm text-muted dark:text-gray-400 hover:text-primary"
                       >
                         {child.label}
                       </Link>
