@@ -50,7 +50,7 @@ export default function ContactPage() {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        access_key: "362982fa-ab00-4d1f-86dc-da4e036026c0",
+        access_key: "99a7c219-ab6c-46d1-a145-31f41c80af91",
         subject: `New Contact Form Submission from ${data.name}`,
         from_name: "ZapZoom Website",
         ...data,
