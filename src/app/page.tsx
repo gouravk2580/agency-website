@@ -129,7 +129,7 @@ export default function HomePage() {
                         className="bg-gray-50 rounded-2xl p-6 text-center"
                       >
                         <div className="text-3xl font-stat font-bold text-primary mb-1">
-                          ₹{stat.value}
+                          {stat.prefix}{stat.value}
                           {stat.suffix}
                         </div>
                         <div className="text-sm text-muted">{stat.label}</div>
@@ -181,7 +181,7 @@ export default function HomePage() {
                   className="text-center"
                 >
                   <div className="text-4xl md:text-5xl font-stat font-bold text-primary mb-2">
-                    ₹{stat.value}
+                    {stat.prefix}{stat.value}
                     {stat.suffix}
                   </div>
                   <div className="text-muted font-medium">{stat.label}</div>

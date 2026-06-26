@@ -91,7 +91,7 @@ export const SERVICES = [
 // ===== Statistics =====
 export const STATS = [
   { value: 150, suffix: "+", label: "Clients Served" },
-  { value: 50, suffix: "L+", label: "Ad Spend Managed" },
+  { value: 50, prefix: "₹", suffix: "L+", label: "Ad Spend Managed" },
   { value: 10, suffix: "M+", label: "Leads Generated" },
   { value: 98, suffix: "%", label: "Client Retention" },
 ];
